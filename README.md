@@ -7,8 +7,24 @@ Este programa permite analizar señales de electrocardiograma (ECG) y evaluar el
 ---
 
 ## ¿Qué es una Señal ECG?
+
 El electrocardiograma (ECG) es una señal eléctrica generada por la actividad del corazón. Se mide mediante electrodos colocados en la piel y se representa como una serie de ondas que reflejan el ciclo cardíaco.
 
+# *Información de la Señal Utilizada*
+
+Origen: Registro MIT-BIH Arrhythmia Database (mitdb/100)
+
+Duración: 10 segundos
+
+Frecuencia de muestreo: 360 Hz
+
+Intervalo de muestreo: 0.00278 segundos
+
+Canal registrado: Derivación V5
+
+Unidades: Milivoltios (mV)
+
+Conversión de unidades: Se puede realizar con la función rdmat.m del toolbox WFDB-MATLAB.
 ---
 
 ## Tipos de Ruido en ECG
